@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const isPlaying = video =>
+const isPlaying = (video) =>
 	!!(
 		video.currentTime > 0 &&
 		!video.paused &&
@@ -16,6 +16,21 @@ export default () => {
 		<Style>
 			<ul>
 				<p>
+					<b>karma trade </b>
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="http://karmatrade.shop/"
+					>
+						(website)
+					</a>
+				</p>
+				<p>
+					working on developing an online cloth swapping platform, complete with
+					a virtual currency, and a fully- fledged e-commerce platform set to
+					launch in fall 2020.
+				</p>
+				<p className="margin-top">
 					<b>caramella </b>
 					<a
 						target="_blank"
@@ -85,8 +100,9 @@ export default () => {
 					Your browser does not support the video tag.
 				</video>
 				<p>
-					e-commerce platform built using reat-native for social merchants to simplify the purchasing
-					process with simple and intuitive shopping experiences.
+					e-commerce platform built using reat-native for social merchants to
+					simplify the purchasing process with simple and intuitive shopping
+					experiences.
 				</p>
 				<p className="margin-top">
 					<b>random projects</b>

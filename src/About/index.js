@@ -5,18 +5,26 @@ export default () => {
 	return (
 		<Style>
 			<p>
-				<b>hi, i am abe.</b> i am a self-taught programmer and i love making
-				things for the web. i currently study aerospace engineering and computer
-				science at the university of illinois at urbana-champaign. i worked
-				previously with{" "}
+				<b>hi, i am abe.</b> i am a sophomore at the university of illinois
+				urbana-champaign studying aerospace engineering and computer science.
+				currently i’m working with{" "}
+				<a
+					target="_blank"
+					rel="noopener noreferrer"
+					href="https://karmatrade.shop/"
+				>
+					karma trade
+				</a>{" "}
+				developing an online cloth swapping platform. i worked previously with{" "}
 				<a target="_blank" rel="noopener noreferrer" href="https://caramel.la/">
 					caramella
 				</a>{" "}
-				developing a new publishing platform, i did lots of things including
-				full stack development, testing, and ui/ux design. on the side, i enjoy
-				working on tough problems, that’s why i’m focusing on machine learning
-				and ai. i hate most dev tools and consider them to be a necessary evil.
-				you can find me on the{" "}
+				creating a new online publishing platform that’s focused on creating
+				beautiful custom designs, i did lots of things including full stack
+				development, testing, and ui/ux design. on the side, i enjoy working on
+				tough problems, that’s why i’m focusing on machine learning and ai. i
+				hate most dev tools and consider them to be a necessary evil. you can
+				find me on the{" "}
 				<a
 					target="_blank"
 					rel="noopener noreferrer"
@@ -26,7 +34,7 @@ export default () => {
 				</a>
 				, email me at abebaaali@gmail.com, check out{" "}
 				<a target="_blank" rel="noopener noreferrer" href="/static/cv.pdf">
-					my cv
+					my résumé
 				</a>
 				, buy me a gift from{" "}
 				<a
