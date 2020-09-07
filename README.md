@@ -1,8 +1,10 @@
+0. make sure photos are jpg in SMALL case
 1. npm run-script build
 2. duplicate build/index.html with the name 404.html
 3. delete gh-pages branch on github
-4. git subtree push --prefix build origin gh-pages
-5. add custom domain again in github settings
+4. git add and commit
+5. git subtree push --prefix build origin gh-pages
+6. add custom domain again in github settings
 
 
 
