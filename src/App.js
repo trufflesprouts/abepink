@@ -5,8 +5,10 @@ import styled from "styled-components";
 import Home from "./Home";
 import Code from "./Code";
 import Photo from "./Photo";
-import Blog from "./Blog";
 import About from "./About";
+import Words from "./Words";
+import AWS from "./Words/AWS";
+import Kirby from "./Words/Kirby";
 
 export default () => {
 	React.useEffect(() => {
@@ -34,8 +36,8 @@ export default () => {
 							<Link to="/photo">photo</Link>
 						</li>
 						<li>
-							<Link to="/blog" className="blog">
-								blog
+							<Link to="/words" className="words">
+								words
 							</Link>
 						</li>
 					</div>
@@ -47,9 +49,11 @@ export default () => {
 				</ul>
 				<div className="content">
 					<Switch>
+						<Route path="/words/node-user-login-with-aws-face-recognition" component={AWS}></Route>
+						<Route path="/words/kirby-dev-setup" component={Kirby}></Route>
+						<Route path="/words" component={Words}></Route>
 						<Route path="/code" component={Code}></Route>
 						<Route path="/photo" component={Photo}></Route>
-						<Route path="/blog" component={Blog}></Route>
 						<Route path="/about" component={About}></Route>
 						<Route path="/" component={Home}></Route>
 					</Switch>
@@ -91,14 +95,15 @@ const Style = styled.div`
 			left: 1em;
 			bottom: 1em;
 		}
-		.blog {
+		/* .words {
 			pointer-events: none;
 			text-decoration: line-through;
 			opacity: 0.5;
-		}
+		} */
 	}
 	.content {
 		flex: auto;
 		padding: 1em;
+		overflow: auto;
 	}
 `;

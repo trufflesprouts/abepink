@@ -12,6 +12,11 @@ const isPlaying = (video) =>
 export default () => {
 	const caramella = React.useRef(null);
 	const raft = React.useRef(null);
+	const rockets = React.useRef(null);
+	const loft = React.useRef(null);
+	const bullet = React.useRef(null);
+	const piano = React.useRef(null);
+	const pathfinder = React.useRef(null);
 	return (
 		<Style>
 			<ul>
@@ -25,10 +30,15 @@ export default () => {
 						(website)
 					</a>
 				</p>
+				<p>[more info soon]</p>
 				<p>
 					working on developing an online cloth swapping platform, complete with
 					a virtual currency, and a fully- fledged e-commerce platform set to
 					launch in fall 2020.
+				</p>
+				<p>
+					utilized: Javascript, React, Node, Git, Firebase, Web Payments
+					(Square), Figma, Adobe Illustrator.
 				</p>
 				<p className="margin-top">
 					<b>caramella </b>
@@ -59,6 +69,10 @@ export default () => {
 					maker from scratch, using a full javascript stack. my responsibilities
 					included working in the front-end and back-end of new features and
 					supporting ongoing infrastructure maintenance.
+				</p>
+				<p>
+					utilized: Javascript, AWS, MongoDB, Jest, GraphQL, TypeScript, SVG
+					animations, DNS.
 				</p>
 				<p className="margin-top">
 					<b>tamerny </b>
@@ -105,26 +119,136 @@ export default () => {
 					experiences.
 				</p>
 				<p className="margin-top">
-					<b>random projects</b>
+					<h2 style={{ color: "blue" }}>random projects:</h2>
 				</p>
-				<li>
+				<p className="margin-top">
+					<b>rocket launches </b>
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
-						href="https://www.youtube.com/watch?v=VkWgVwtP1rk"
+						href="https://rockets.surge.sh/"
 					>
-						piano app
+						(website)
 					</a>
-				</li>
-				<li>
+				</p>
+				<video
+					autoPlay
+					loop
+					muted
+					playsInline
+					ref={rockets}
+					onClick={() => {
+						if (isPlaying(rockets.current)) rockets.current.pause();
+						else rockets.current.play();
+					}}
+				>
+					<source src="/static/rockets.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
+				<p>
+					web app displaying upcoming rocket launches around the world, based on
+					the launch library api. supports pwa features and acts like a native
+					app on android.
+				</p>
+				<p className="margin-top">
+					<b>pathfinder </b>
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://truffles-pathfinder.surge.sh/"
+					>
+						(website)
+					</a>
+				</p>
+				<video
+					autoPlay
+					loop
+					muted
+					playsInline
+					ref={pathfinder}
+					onClick={() => {
+						if (isPlaying(pathfinder.current)) pathfinder.current.pause();
+						else pathfinder.current.play();
+					}}
+				>
+					<source src="/static/pathfinder.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
+				<p>
+					breadth-first Javascript pathfinding algorithm with visualization.
+				</p>
+				<p className="margin-top">
+					<b>the loft </b>
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
 						href="https://truffles-the-loft.surge.sh/"
 					>
-						the loft
+						(website)
 					</a>
-				</li>
+				</p>
+				<video
+					autoPlay
+					loop
+					muted
+					playsInline
+					ref={loft}
+					onClick={() => {
+						if (isPlaying(loft.current)) loft.current.pause();
+						else loft.current.play();
+					}}
+				>
+					<source src="/static/loft.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
+				<p className="margin-top">
+					<b>piano app </b>
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://www.youtube.com/watch?v=VkWgVwtP1rk"
+					>
+						(video)
+					</a>
+				</p>
+				<video
+					autoPlay
+					loop
+					muted
+					playsInline
+					ref={piano}
+					onClick={() => {
+						if (isPlaying(piano.current)) piano.current.pause();
+						else piano.current.play();
+					}}
+				>
+					<source src="/static/piano.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
+				<p className="margin-top">
+					<b>bullet design </b>
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://truffles-bullet-design.surge.sh/"
+					>
+						(website)
+					</a>
+				</p>
+				<video
+					autoPlay
+					loop
+					muted
+					playsInline
+					ref={bullet}
+					onClick={() => {
+						if (isPlaying(bullet.current)) bullet.current.pause();
+						else bullet.current.play();
+					}}
+				>
+					<source src="/static/bullet.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
 				<li>
 					<a
 						target="_blank"
@@ -132,15 +256,6 @@ export default () => {
 						href="https://catch-app.surge.sh/"
 					>
 						seafood market
-					</a>
-				</li>
-				<li>
-					<a
-						target="_blank"
-						rel="noopener noreferrer"
-						href="https://truffles-bullet-design.surge.sh/"
-					>
-						bullet design
 					</a>
 				</li>
 				<li>
@@ -174,15 +289,6 @@ export default () => {
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
-						href="https://truffles-pathfinder.surge.sh/"
-					>
-						pathfinder
-					</a>
-				</li>
-				<li>
-					<a
-						target="_blank"
-						rel="noopener noreferrer"
 						href="https://truffles-tictacto.surge.sh/"
 					>
 						tic-tac-to
@@ -206,15 +312,6 @@ export default () => {
 						wikipedia search
 					</a>
 				</li>
-				<li>
-					<a
-						target="_blank"
-						rel="noopener noreferrer"
-						href="https://rockets.surge.sh/"
-					>
-						rocket launches
-					</a>
-				</li>
 			</ul>
 		</Style>
 	);
@@ -224,12 +321,13 @@ const Style = styled.div`
 	video,
 	img {
 		width: 100%;
-		max-width: 360px;
+		max-width: 640px;
 		margin: 0.2em 0;
 		padding: 0;
 	}
-	img {
-		border: 1px solid #0000001a;
+	img,
+	video {
+		box-shadow: 0 0.5px 0 2px #efefef;
 	}
 	p {
 		max-width: 640px;
