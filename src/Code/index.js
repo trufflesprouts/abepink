@@ -10,6 +10,7 @@ const isPlaying = (video) =>
 	);
 
 export default () => {
+	const karma = React.useRef(null);
 	const caramella = React.useRef(null);
 	const raft = React.useRef(null);
 	const rockets = React.useRef(null);
@@ -30,7 +31,20 @@ export default () => {
 						(website)
 					</a>
 				</p>
-				<p>[more info soon]</p>
+				<video
+					autoPlay
+					loop
+					muted
+					playsInline
+					ref={karma}
+					onClick={() => {
+						if (isPlaying(karma.current)) karma.current.pause();
+						else karma.current.play();
+					}}
+				>
+					<source src="/static/karma.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
 				<p>
 					working on developing an online cloth swapping platform, complete with
 					a virtual currency, and a fully- fledged e-commerce platform set to

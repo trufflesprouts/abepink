@@ -33,7 +33,7 @@ export default () => {
 							<Link to="/code">code</Link>
 						</li>
 						<li>
-							<Link to="/photo">photo</Link>
+							<Link to="/photos">photos</Link>
 						</li>
 						<li>
 							<Link to="/words" className="words">
@@ -54,6 +54,7 @@ export default () => {
 						<Route path="/words" component={Words}></Route>
 						<Route path="/code" component={Code}></Route>
 						<Route path="/photo" component={Photo}></Route>
+						<Route path="/photos" component={Photo}></Route>
 						<Route path="/about" component={About}></Route>
 						<Route path="/" component={Home}></Route>
 					</Switch>
