@@ -5,26 +5,28 @@ export default () => {
 	return (
 		<Style>
 			<p>
-				<b>hi, i am abe.</b> i am a sophomore at the university of illinois
-				urbana-champaign studying aerospace engineering and computer science.
-				currently i’m working with{" "}
+				<b>hi, i am abe.</b> i am a senior at the university of illinois
+				urbana-champaign studying computer science. last summer, i interned
+				with the sell-side customer growth team at redfin building an app that
+				gets used by 70k users a day. before that i worked on
+				{" "}
 				<a
 					target="_blank"
 					rel="noopener noreferrer"
 					href="https://karmatrade.shop/"
 				>
 					karma trade
-				</a>{" "}
-				developing an online cloth swapping platform. i worked previously with{" "}
+				</a>
+				{" "}
+				developing an online cloth swapping platform and
+				{" "}
 				<a target="_blank" rel="noopener noreferrer" href="https://caramel.la/">
 					caramella
 				</a>{" "}
 				creating a new online publishing platform that’s focused on creating
 				beautiful custom designs, i did lots of things including full stack
-				development, testing, and ui/ux design. on the side, i enjoy working on
-				tough problems, that’s why i’m focusing on machine learning and ai. i
-				hate most dev tools and consider them to be a necessary evil. you can
-				find me on the{" "}
+				development, testing, and ui/ux design.
+				you can find me on the{" "}
 				<a
 					target="_blank"
 					rel="noopener noreferrer"
@@ -40,7 +42,7 @@ export default () => {
 				<a
 					target="_blank"
 					rel="noopener noreferrer"
-					href="https://www.amazon.com/hz/wishlist/ls/25UJ0TD4Q7RQN?&sort=default"
+					href="https://www.amazon.com/hz/wishlist/ls/3OGDF67LDES4"
 				>
 					amazon
 				</a>{" "}
