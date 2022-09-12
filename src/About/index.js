@@ -6,9 +6,11 @@ export default () => {
 		<Style>
 			<p>
 				<b>hi, i am abe.</b> i am a senior at the university of illinois
-				urbana-champaign studying computer science. last summer, i interned
-				with the sell-side customer growth team at redfin building an app that
-				gets used by 70k users a day. before that i worked on
+				urbana-champaign studying computer science. last summer, i shipped
+				a lot of instagram direct and facebook web features during my internship
+				at meta. the summer before that i interned with the sell-side customer
+				growth team at redfin building an app that gets used by 70k users a day.
+				before that i worked on
 				{" "}
 				<a
 					target="_blank"
