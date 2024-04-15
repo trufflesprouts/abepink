@@ -68,5 +68,6 @@
 		padding-left: calc(100px + 1em);
 		overflow: auto;
 		box-sizing: border-box;
+		height: 100vh;
 	}
 </style>
