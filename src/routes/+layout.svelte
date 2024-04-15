@@ -1,7 +1,8 @@
 <script>
-	// import Header from './Header.svelte';
-	// import '/fonts/stylesheet.css?url';
+	import Theme from '$lib/+theme.svelte';
 </script>
+
+<Theme />
 
 <div class="app">
 	<nav>
