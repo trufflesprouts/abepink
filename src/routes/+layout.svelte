@@ -14,6 +14,9 @@
 				<a href="/photos">photos</a>
 			</li>
 			<li>
+				<a href="/food">food</a>
+			</li>
+			<li>
 				<a href="/words" class="words">words</a>
 			</li>
 
