@@ -1,13 +1,10 @@
 body {
 	--theme-text: black;
 	--theme-background: white;
-	&[data-theme='dark'] {
+	@media (prefers-color-scheme: dark) {
 		--theme-text: white;
 		--theme-background: black;
 	}
 	background-color: var(--theme-background);
-}
-
-* {
 	color: var(--theme-text);
 }

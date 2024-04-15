@@ -6,7 +6,7 @@ body {
 
 * {
 	font-family: Apercu, sans-serif;
-	color: black;
+	color: inherit;
 	margin: 0;
 	padding: 0;
 	line-height: 1.3em;
@@ -18,4 +18,8 @@ a:hover {
 
 ul {
 	list-style: none;
+}
+
+p {
+	max-width: 640px;
 }

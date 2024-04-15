@@ -1,8 +1,5 @@
 <script>
-	import Theme from '$lib/+theme.svelte';
 </script>
-
-<Theme />
 
 <div class="app">
 	<nav>
@@ -39,27 +36,19 @@
 	nav {
 		position: relative;
 	}
-	.spaceholder {
-		opacity: 0;
-		visibility: hidden;
-		user-select: none;
-		pointer-events: none;
-		padding: 1em;
-	}
 	ul {
-		white-space: nowrap;
-		height: 100%;
 		display: flex;
 		flex-direction: column;
 		flex: none;
+		white-space: nowrap;
 		z-index: 3;
 		padding: 1rem;
 		box-sizing: border-box;
 		position: fixed;
-		left: 0;
-		right: 0;
-		bottom: 0;
 		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 100px;
 		li {
 			list-style: none;
 			&:last-of-type {
