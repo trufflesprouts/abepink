@@ -3,9 +3,7 @@
 
 	const SCHEME = '(prefers-color-scheme: dark)';
 
-	console.log('theme!!!+');
 	onMount(() => {
-		console.log('theme!!!');
 		setTheme();
 		window.matchMedia(SCHEME).addEventListener('change', setTheme);
 	});
