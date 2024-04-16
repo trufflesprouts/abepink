@@ -31,7 +31,6 @@
 				increased seller leads by developing an interactive home affordability calculator to inform
 				buyers on how much they can afford.
 			</p>
-			<p>utilized: Javascript, React, Docker, Java, A/B testing.</p>
 		</li>
 		<li>
 			<h3>
@@ -46,10 +45,6 @@
 				developed an online cloth swapping platform, complete with a virtual currency, and a fully-
 				fledged e-commerce platform.
 			</p>
-			<p>
-				utilized: Javascript, React, Node, Git, Firebase, Web Payments (Square), Figma, Adobe
-				Illustrator.
-			</p>
 		</li>
 		<li>
 			<h3>
@@ -61,11 +56,9 @@
 				Your browser does not support the video tag.
 			</video>
 			<p>
-				worked in a product team of three to design and develop a website maker from scratch, using
-				a full javascript stack. my responsibilities included working in the front-end and back-end
-				of new features and supporting ongoing infrastructure maintenance.
+				worked in a product team of three to design and develop an interactive website maker from
+				scratch, using a full javascript stack.
 			</p>
-			<p>utilized: Javascript, AWS, MongoDB, Jest, GraphQL, TypeScript, SVG animations, DNS.</p>
 		</li>
 		<li>
 			<h3>
@@ -79,7 +72,7 @@
 				</a>
 			</h3>
 			<img src="/tamerny.jpg" alt="" />
-			<p>designed and built an angular app that manages dipatchers of a delivery service.</p>
+			<p>designed and built an angular app that manages dispatchers of a delivery service.</p>
 		</li>
 	</ul>
 </div>
