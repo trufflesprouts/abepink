@@ -1,4 +1,10 @@
 <script>
+	import { PUBLIC_HEAP_APP_ID } from '$env/static/public';
+	import { browser } from '$app/environment';
+	if (browser) {
+		// @ts-expect-error heap
+		window.heap.load(PUBLIC_HEAP_APP_ID);
+	}
 </script>
 
 <div class="app">

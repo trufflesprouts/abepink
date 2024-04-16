@@ -26,6 +26,8 @@ jobs:
         run: pnpm install
 
       - name: build
+        env:
+          PUBLIC_HEAP_APP_ID: 878117143
         run: |
           pnpm run build
 
