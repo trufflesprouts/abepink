@@ -30,6 +30,8 @@
 	</main>
 </div>
 
+export const prerender = true;
+
 <style lang="scss">
 	.app {
 		display: flex;
