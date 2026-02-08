@@ -13,22 +13,9 @@
 			<li>
 				<a href="/">abe baali</a>
 			</li>
-			<li>
-				<a href="/code">code</a>
-			</li>
-			<li>
-				<a href="/photos">photos</a>
-			</li>
-			<li>
-				<a href="/food">food</a>
-			</li>
-			<li>
-				<a href="/words" class="words">words</a>
-			</li>
-
-			<li>
-				<a href="/about">about</a>
-			</li>
+			{#each ['code', 'photos', 'food', 'travel', 'about'] as title}
+				<li><a href="/{title}">{title}</a></li>
+			{/each}
 		</ul>
 	</nav>
 	<main>
