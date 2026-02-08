@@ -1,6 +1,22 @@
 <div>
 	<ul>
 		<li>
+			<h3>
+				odd desk
+				<a target="_blank" rel="noopener noreferrer" href="https://odddesk.com/"> (website) </a>
+			</h3>
+			<p>building the bloomberg terminal for prediction markets.</p>
+		</li>
+		<li>
+			<h3>
+				banana economy
+				<a target="_blank" rel="noopener noreferrer" href="https://bananaeconomy.com/">
+					(website)
+				</a>
+			</h3>
+			<p>calling out the AI bubble</p>
+		</li>
+		<li>
 			<h3>tesla</h3>
 			<img src="/tesla.png" alt="" />
 		</li>
