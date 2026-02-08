@@ -11,12 +11,11 @@
 	lots of things including full stack development, testing, and ui/ux design. you can find me on the
 	<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/abe.baali/"
 		>instagrams</a
-	>, email me at abebaaali@gmail.com, check out
-	<a target="_blank" rel="noopener noreferrer" href="/static/cv.pdf">my résumé</a>
-	, or find me trufflesprouts on github. thank you for reading, pls like & subscribe!
+	>, email me at abebaaali@gmail.com, or find me trufflesprouts on github. thank you for reading,
+	pls like & subscribe!
 </p>
 <img src="/me.jpeg" alt="its me" />
-<p class="caption">pictured on the left</p>
+<p class="caption">pictured on the far right</p>
 
 <style lang="scss">
 	img {
