@@ -1,5 +1,5 @@
 <script>
-	const photos = Array.from({ length: 11 }, (_, i) => i + 1);
+	const photos = Array.from({ length: 14 }, (_, i) => i + 1);
 </script>
 
 <!-- Create a simple Svelte component that displays these photos -->
