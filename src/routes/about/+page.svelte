@@ -20,6 +20,6 @@
 <style lang="scss">
 	img {
 		margin-top: 1rem;
-		max-width: 640px;
+		max-width: min(640px, 100%);
 	}
 </style>
